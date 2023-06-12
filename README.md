@@ -52,11 +52,6 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-## Buat folder buku di storage
-```
-storage/app/public/
-```
-
 ## Buat tautan storage
 ```
 php artisan storage:link
