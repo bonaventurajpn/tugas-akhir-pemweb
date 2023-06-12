@@ -9,8 +9,9 @@ Puja Ramadhan Nita<br />
 Reynaldi Holtrop<br />
 Bonaventura Julio Putra Nandika<br />
 ## Detil Projek
-Deskripsi Website : Website yang digunakan untuk mengelola peminjaman dan pengarsipan jurnal FILKOM UB<br />
+Deskripsi Website : Website yang digunakan untuk mengelola peminjaman buku<br />
 Aktor : Admin, Petugas, Peminjam<br />
+Framework : Laravel, Livewire<br />
 
 # CARA PENGGUNAAN
 ## Buka Git Bash dan arahkan direktori ke htdocs pada instalasi XAMPP
