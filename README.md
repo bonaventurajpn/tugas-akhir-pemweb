@@ -24,9 +24,9 @@ cd /path/to/htdocs
 git clone https://gitlab.com/bnvt151/projek-akhir-pemweb
 ```
 
-## Buat database MySQL dengan nama pemweb_kel1
+## Buat database MySQL dengan nama perpustakaan
 ```
-create database pemweb_kel1;
+create database perpustakaan;
 ```
 >***Default konfigurasi pada repository ini adalah***<br />
 Database : MySql<br />
