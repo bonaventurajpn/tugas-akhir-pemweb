@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', PeminjamBukuController::class);
 
+Route::get('/submit', [RakController::class, 'store']);
+
 Auth::routes();
 
 Route::middleware(['auth'])->group(function () {

@@ -1,12 +1,19 @@
   @if ($create)
-        <div class="card">
-            <div class="card-body">
-                <div class="form-group">
-                    <label for="nama">Kategori</label>
-                    <input wire:model="nama" type="text" class="form-control" id="nama" name="nama">
-                    @error('nama') <small class="text-danger">{{ $message }}</small> @enderror
+    <div class="modal fade show" id="modal-default" style="display: block; padding-right: 17px;">
+        <div class="modal-dialog"> 
+            <div class="modal-content"> 
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-group" method="get">
+                            <label for="nama">Kategori</label>
+                            <input wire:model="nama" type="text" class="form-control" id="nama" name="nama">
+                            @error('nama') <small class="text-danger">{{ $message }}</small> @enderror
+                        </div>
+            
+                        <span wire:click="store" class="btn btn-sm btn-success" >Simpan</span>
+                    </div>
                 </div>
-                <span wire:click="store" class="btn btn-sm btn-success">Simpan</span>
             </div>
         </div>
+    </div>
     @endif
